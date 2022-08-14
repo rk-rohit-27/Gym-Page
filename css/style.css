@@ -1,0 +1,407 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-color: black;
+}
+
+header {
+    background-color: black;
+
+}
+
+header img {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    height: 5vw;
+    border: 2px solid grey;
+    border-radius: 80px;
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 30px;
+    position: sticky;
+    top: 0;
+    
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    width: 70%;
+    align-items: center;
+    
+}
+
+.nav-list a {
+    text-decoration: none;
+    padding: 15px 30px;
+    color: white;
+}
+
+.nav-list a:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid grey;
+    border-radius: 40px;
+
+}
+
+.rightnav {
+    width: 30%;
+    text-align: right;
+    display: flex;
+    justify-content: right;
+    float: right;
+}
+
+.burger {
+    position: absolute;
+    right: 5%;
+    top: 15px;
+    cursor: pointer;
+    display: none;
+}
+
+.line {
+    background-color: white;
+    width: 33px;
+    margin: 5px 3px;
+    height: 4px;
+    color: white;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: 2px solid whitesmoke;
+    border-radius: 40px;
+    cursor: pointer;
+    float: right;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.background {
+    background: rgb(0, 0, 0, 0.7) url(img/pexels-photo-116077.webp);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstSection {
+    height: 90vh;
+}
+
+.box-main {
+    display: flex;
+    text-align: -webkit-center;
+    align-items: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 80%;
+    margin: auto;
+    height: 80%;
+
+}
+
+.firstHalf {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.scondHalf {
+    width: 30%;
+    background-color: black;
+
+}
+
+.secondHalf img {
+    width: 60%;
+    border: 2px solid whitesmoke;
+    border-radius: 100%;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.heading {
+    text-align: center;
+    font-size: 40px;
+}
+
+.text-big {
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.but {
+    padding: 10px 10px;
+    border: 2px solid grey;
+    border-radius: 60px;
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+
+}
+
+.but:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    ;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    color: white;
+
+}
+
+.Left {
+    flex-direction: row-reverse;
+}
+
+.para {
+    padding: 100px 60px;
+}
+
+.sectionTag {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.sectionSubTag {
+    font-size: 12px;
+
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.thumbnail {
+    cursor: pointer;
+    /* border: 2px solid white; */
+    
+}
+
+#leg {
+    width: 70%;
+
+}
+
+#chest {
+    width: 70%;
+
+}
+
+.contact-us {
+    color: white;
+
+}
+
+.heading {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.form {
+    max-width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form-input {
+    padding: 3px 10px;
+    margin: 6px 10px
+}
+
+.butt {
+    background-color: black;
+    color: white;
+    border: 2px solid whitesmoke;
+    padding: 5px 0px;
+    margin: 5px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.butt:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 20px 10px;
+}
+
+.containerplan {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 69vh;
+    border-radius: 30px;
+}
+h2{
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0.097);
+}
+
+.boxs {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    width: 35%;
+    padding: 10x 20px;
+    background-color: rgb(237, 231, 231);
+    color: black;
+    border-radius: 20px;
+}
+
+.head {
+    text-align: center;
+    padding-top: 25px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    height: 15vh;
+    padding-bottom: 0px;
+    border: 2px solid grey;
+    border-radius: 15px;
+
+}
+
+.list {
+    font-size: 30px;
+    padding: 40px 80px;
+    list-style: none;
+    height: 30vh;
+
+}
+
+.buy {
+    padding: 20px 20px;
+    border: 2px solid grey;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.buy:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Responsiveness */
+
+@media only screen and (max-width:1044px) {
+   
+    .nav {
+        flex-direction: column;
+        transition: all 3s ease-out;
+        height: 250px;
+        background-color:rgba(0, 0, 0, 0.716)
+    }
+
+    .nav-list {
+        flex-direction: column;
+        padding: 20px;
+    
+    }
+
+    .rightnav {
+        flex-direction: column;
+        padding-left: 25%;
+        float: right;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .h-nav-resp {
+        height: 33px;
+    }
+
+    .v-class-resp {
+        opacity: 0;
+    }
+.box-main{
+    flex-direction: column-reverse;
+    max-width: 100%;
+    padding-top: 14vw;
+    text-align: center;
+    margin: auto;
+}
+.section{
+    flex-direction: column-reverse;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+.text-big{
+    text-align: center;
+}
+.heading{
+    text-align: center;
+}
+.containerplan{
+    flex-direction: column;
+    height: 100%;
+    max-width: 100%;
+    
+}
+.boxs{
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+}
+.buy{
+    max-width: 97%;
+    text-align: center;
+
+}
+.head{
+    max-width: 96%;
+}
+}
